@@ -5,6 +5,7 @@ class Application
     
     resp.write "Hello, there"
       
-      resp.finish
+    resp.finish
+    end 
  
 end

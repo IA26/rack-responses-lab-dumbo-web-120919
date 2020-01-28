@@ -4,6 +4,7 @@ class Application
     resp = Rack::Response.new
     
     resp.write "Morning"
+    resp.write "Morning"
       
     resp.finish
     end 
